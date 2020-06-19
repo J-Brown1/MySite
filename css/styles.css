@@ -1,7 +1,8 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: "Proza Libre", sans-serif;
+  font-family: "Proza Libre", saneris-sf;
+  color: #40514e;
 }
 
 h1 {
@@ -43,6 +44,7 @@ h3 {
 
 #bottom-container {
   background-color: #66bfbf;
+  padding: 20px 0 20px;
 }
 
 .top-cloud {
@@ -70,10 +72,6 @@ h3 {
   padding-bottom: 5px;
 }
 
-.my-description {
-  color: #40514e;
-}
-
 hr {
   border-style: dotted none none none;
   border-width: 4px;
@@ -87,10 +85,20 @@ hr {
   padding: 10px;
 }
 
-a {
-  color: #11999e;
+.my-description {
+  width: 55%;
+  margin: auto;
 }
 
+a {
+  color: #11999e;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto;
@@ -115,4 +123,11 @@ a {
 
 .copywrite {
   color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
 }
